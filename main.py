@@ -62,7 +62,7 @@ def main(folder_path):
 
 if __name__ == '__main__':
     path = sys.argv[1]
-    print(path)
+    print(f"started here{path}")
 
     folder = Path(path)
     main(folder.resolve())
